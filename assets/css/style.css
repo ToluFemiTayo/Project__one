@@ -39,7 +39,6 @@ section.carousel {
     }
 }
 /* overwriting bootstrap */
-
 section.travel {
     padding: 60px 0;
 }
@@ -99,24 +98,10 @@ section.testimonial {
 
 /* Gallery */
 .gallery__heading {
-    padding: 60px 60px 0;
+    padding: 0 60px 60px;
 }
-.gallery__groupwrapper {
-    padding: 60px;
-}
-.gallery__card {
-    width: 315px;
-    height: 290px;
-    padding: 0;
-}
-.gallery__imgwrapper {
-    width: 350px;
-    height: 290px;
-    padding: 20px;
-}
-.gallery__imgwrapper img {
-    height: 100%;
-    width: 100%
+section.wrapper {
+    padding: 60px 0;
 }
 /* Gallery */
 
