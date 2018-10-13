@@ -1,0 +1,145 @@
+.logo {
+    width: 120px;
+    height: 46px;
+    border: 2px solid #FFFFFF;
+    padding: 2px;
+}
+.logo__tagline {
+    width:  100%;
+    height: 100%;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section.carousel {
+    padding-top: 60px;
+}
+/* overwriting bootstrap */
+@media (min-width: 1200px) {
+    .carousel-item img {
+        height: 550px;
+    }
+}
+@media (max-width: 450px) {
+    .carousel-item img {
+        height: 220px;
+    }
+}
+@media (min-width: 1200px) {
+    .circles__figure {
+        height: 550px;
+    }
+}
+@media (max-width: 450px) {
+    .circles__figure {
+        height: 220px;
+    }
+}
+/* overwriting bootstrap */
+
+section.travel {
+    padding: 60px 0;
+}
+.card-img-top {
+    height: 300px;
+}
+.circles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circles__figure {
+    height: 200px;
+    width: 200px;
+}
+.circles__figure img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+}
+section.testimonial {
+    padding: 60px 0;
+}
+.form__wrapper {
+    padding: 50px 0 50px 0;
+  }
+.form__fill {
+    max-width: 300px;
+    margin: 0 auto;
+  /* display: flex;  */
+  /* flex-direction: column;  */
+  /* justify-content: center;  */
+  padding: 20px; 
+}
+
+/* About Us */
+.abtus__heading{
+    padding: 60px 60px 0;
+}
+.abtus__img {
+    float: left; 
+    width: 220px; 
+    height: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 20%;
+    padding: 0 20px 0 0;
+}
+.abtus__hnp {
+    padding: 60px 60px 0;
+}
+.abtus__imgtext {
+    padding: 60px;
+}
+/* About Us */
+
+/* Gallery */
+.gallery__heading {
+    padding: 60px 60px 0;
+}
+.gallery__groupwrapper {
+    padding: 60px;
+}
+.gallery__card {
+    width: 315px;
+    height: 290px;
+    padding: 0;
+}
+.gallery__imgwrapper {
+    width: 350px;
+    height: 290px;
+    padding: 20px;
+}
+.gallery__imgwrapper img {
+    height: 100%;
+    width: 100%
+}
+/* Gallery */
+
+
+/* footer */
+.footer__wrapper {
+    padding: 60px 60px 0;
+}
+footer ul {
+    padding: 20px;
+    margin: 0;
+}
+.footer__ul1 {
+    list-style-type: none;
+}
+.footer__ul2 {
+    margin: 0;
+    width: 240px;
+    height: 240px;
+    padding: 60;
+}
+.footer__copyright {
+    padding: 20px;
+}
+/* footer */
+
