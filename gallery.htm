@@ -235,8 +235,9 @@
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-        <img id="modal" />
-      </div>
+          <div class="modal-title "></div>
+          <img id="modal-img" src="assets/img/solo.jpg" alt="Card image cap" />
+        </div>
     </div>
   </div>
   <script>
@@ -245,10 +246,14 @@
       var recipient = button.data('whatever'); // Extract info from data-* attributes
       // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
       // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-      // var img = button.data(img);
+      var img = button.data(img);
       var modal = $(this);
-      modal.find('.modal-content').text(recipient);
-      // modal.find('#exampleModal').val(img);
+      modal.find('.modal-title').text(recipient);
+      modal.find('.modal-img').val(img);
+      modal.find('.modal-img')
+        .prevObject[0].firstElementChild
+        .firstElementChild.lastElementChild
+        .src = button[0].firstElementChild.src;
     })
   </script>
 </body>
